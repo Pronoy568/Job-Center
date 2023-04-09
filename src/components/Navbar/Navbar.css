@@ -1,0 +1,33 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px 0;
+  background: #f9f9ff;
+}
+.Navbar-Title {
+  font-weight: 800;
+  font-size: 32px;
+  color: #1a1919;
+}
+.Navbar-Link a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #757575;
+}
+
+.applyBtn {
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  border-radius: 8px;
+  padding: 19px 28px;
+  border: 0;
+  font-weight: 800;
+  font-size: 18px;
+  color: #ffffff;
+}
+.applyBtn:hover {
+  background: linear-gradient(90deg, #9873ff 0%, #7e90fe 100%);
+}

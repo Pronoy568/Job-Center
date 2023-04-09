@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "company_logo": "https://example.com/logo1.png",
+    "job_title": "Software Engineer",
+    "company_name": "Example Inc.",
+    "remote_or_onsite": "Remote",
+    "location": "Anywhere",
+    " fullTime_or_partTime": "FullTime",
+    "salary": "Competitive",
+    "job_description": "We are looking for a skilled software engineer to join our team and help develop our next generation software products.",
+    "job_responsibility": "Develop and maintain software products, work with cross-functional teams, participate in code reviews and design discussions.",
+    "educational_requirements": "Bachelor's degree in Computer Science or related field.",
+    "experiences": "Minimum 3 years of experience in software development.",
+    "contact_information": {
+      "phone": "555-1234",
+      "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": 2,
+    "company_logo": "https://example.com/logo2.png",
+    "job_title": "Data Analyst",
+    "company_name": "Acme Corp.",
+    "remote_or_onsite": "Onsite",
+    "location": "New York",
+    " fullTime_or_partTime": "FullTime",
+    "salary": "50,000 - 70,000",
+    "job_description": "We are seeking a Data Analyst to join our team and help us analyze our data to make better business decisions.",
+    "job_responsibility": "Analyze large data sets, identify trends and patterns, develop reports and visualizations, work with stakeholders to understand their data needs.",
+    "educational_requirements": "Bachelor's degree in Mathematics, Statistics, or related field.",
+    "experiences": "Minimum 2 years of experience in data analysis.",
+    "contact_information": {
+      "phone": "555-5678",
+      "email": "careers@acmecorp.com"
+    }
+  },
+  {
+    "id": 3,
+    "company_logo": "https://example.com/logo3.png",
+    "job_title": "Marketing Manager",
+    "company_name": "XYZ Corp.",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco",
+    " fullTime_or_partTime": "FullTime",
+    "salary": "80,000 - 100,000",
+    "job_description": "We are seeking an experienced Marketing Manager to develop and execute our marketing strategy.",
+    "job_responsibility": "Develop and execute marketing plans, manage budgets, lead cross-functional teams, measure and analyze campaign performance.",
+    "educational_requirements": "Bachelor's degree in Marketing or related field.",
+    "experiences": "Minimum 5 years of experience in marketing.",
+    "contact_information": {
+      "phone": "555-9012",
+      "email": "jobs@xyzcorp.com"
+    }
+  },
+  {
+    "id": 4,
+    "company_logo": "https://example.com/logo1.png",
+    "job_title": "Software Engineer",
+    "company_name": "ABC Software",
+    "remote_or_onsite": "Remote",
+    "location": "Any",
+    " fullTime_or_partTime": "FullTime",
+    "salary": "$100,000 - $120,000",
+    "job_description": "ABC Software is seeking an experienced software engineer to join our team...",
+    "job_responsibility": "• Design, develop, and test software\n• Collaborate with other engineers and stakeholders\n• Write clean, maintainable code\n• Participate in code reviews\n...",
+    "educational_requirements": "• Bachelor's degree in Computer Science or related field\n• Master's degree preferred",
+    "experiences": "• 5+ years of experience in software engineering\n• Experience with Java, Python, or similar languages",
+    "contact_information": {
+      "phone": "555-1234",
+      "email": "jobs@abcsoftware.com"
+    }
+  },
+  {
+    "id": 5,
+    "company_logo": "https://example.com/logo2.png",
+    "job_title": "Marketing Manager",
+    "company_name": "XYZ Corporation",
+    "remote_or_onsite": "Onsite",
+    "location": "New York City",
+    " fullTime_or_partTime": "FullTime",
+    "salary": "$80,000 - $100,000",
+    "job_description": "XYZ Corporation is seeking a marketing manager to oversee our marketing efforts...",
+    "job_responsibility": "• Develop and execute marketing plans\n• Manage a team of marketing professionals\n• Analyze market trends and data\n• Collaborate with other departments\n...",
+    "educational_requirements": "• Bachelor's degree in Marketing or related field\n• Master's degree preferred",
+    "experiences": "• 7+ years of experience in marketing\n• Experience in B2B marketing",
+    "contact_information": {
+      "phone": "555-5678",
+      "email": "jobs@xyzcorp.com"
+    }
+  },
+  {
+    "id": 6,
+    "company_logo": "https://example.com/logo3.png",
+    "job_title": "Graphic Designer",
+    "company_name": "123 Design Studio",
+    "remote_or_onsite": "Remote",
+    "location": "Any",
+    " fullTime_or_partTime": "PartTime",
+    "salary": "$30 - $50 per hour",
+    "job_description": "123 Design Studio is seeking a part-time graphic designer to help us create beautiful designs for our clients...",
+    "job_responsibility": "• Create designs for websites, print materials, and social media\n• Work with clients to understand their needs\n• Revise designs based on client feedback\n...",
+    "educational_requirements": "• Bachelor's degree in Graphic Design or related field\n• Master's degree preferred",
+    "experiences": "• 3+ years of experience in graphic design\n• Experience with Adobe Creative Suite",
+    "contact_information": {
+      "phone": "555-9012",
+      "email": "jobs@123designstudio.com"
+    }
+  }
+]
