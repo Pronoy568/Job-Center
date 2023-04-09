@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-around;
   padding: 25px 0;
-  background: #f9f9ff;
+  background-color: #f9f9ff;
 }
 .Navbar-Title {
   font-weight: 800;
@@ -30,4 +30,18 @@
 }
 .applyBtn:hover {
   background: linear-gradient(90deg, #9873ff 0%, #7e90fe 100%);
+}
+
+@media (max-width: 576px) {
+  .Navbar {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+  .Navbar-Link {
+    margin: 20px;
+  }
+  .applyBtn {
+    padding: 10px 20px;
+  }
 }
