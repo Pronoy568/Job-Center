@@ -1,28 +1,28 @@
 [
   {
     "id": 1001,
-    "logo": "https://example.com/job1_logo.png",
+    "logo": "../src/assets/Logo/logo1.png",
     "title": "Software Developer",
     "company": "Example Inc.",
     "JobAvailable": "100 Jobs Available"
   },
   {
     "id": 1002,
-    "logo": "https://example.com/job2_logo.png",
+    "logo": "../src/assets/Logo/logo2.png",
     "title": "Network Engineer",
     "company": "ABC Corp.",
     "JobAvailable": "140 Jobs Available"
   },
   {
     "id": 1003,
-    "logo": "https://example.com/job3_logo.png",
+    "logo": "../src/assets/Logo/logo3.jpg",
     "title": "Data Analyst",
     "company": "XYZ LLC",
     "JobAvailable": "200 Jobs Available"
   },
   {
     "id": 1004,
-    "logo": "https://example.com/job4_logo.png",
+    "logo": "../src/assets/Logo/logo4.png",
     "title": "UX Designer",
     "company": "PQR Co.",
     "JobAvailable": "190 Jobs Available"
