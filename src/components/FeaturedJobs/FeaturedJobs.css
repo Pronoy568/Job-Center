@@ -1,0 +1,28 @@
+.FeaturedJobsContainer {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.FeaturedJobsContainer h1 {
+  font-weight: 800;
+  font-size: 48px;
+  color: #1a1919;
+}
+.FeaturedJobsContainer p {
+  font-weight: 500;
+  font-size: 16px;
+  margin: 15px 0 25px 0;
+  color: #757575;
+}
+.FeaturedJobs {
+  width: 85%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+  .FeaturedJobs {
+    grid-template-columns: 1fr;
+  }
+}
