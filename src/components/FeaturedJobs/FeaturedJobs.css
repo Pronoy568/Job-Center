@@ -20,7 +20,18 @@
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
 }
-
+.btnSeeMore {
+  padding: 10px 15px;
+  background: linear-gradient(90deg, #004b0f 0%, #001a4f 50%, #004b0f 100%);
+  border: 0;
+  font-weight: 700;
+  font-size: 17px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.btnSeeMore:hover {
+  background: linear-gradient(90deg, #00003d 0%, #004002e5 50%, #00003d 100%);
+}
 @media (max-width: 576px) {
   .FeaturedJobs {
     grid-template-columns: 1fr;
