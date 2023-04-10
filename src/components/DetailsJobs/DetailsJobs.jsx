@@ -22,25 +22,61 @@ const DetailsJobs = () => {
   return (
     <div className="DetailsJobsContainer">
       <div className="DetailsJobsHeading">
-        <h1>Job Details</h1>
+        <h1 className="titleJob">Job Details</h1>
       </div>
-      <div className="DetailsJobsDescriptionContact">
-        <div className="DetailsJobsDescription">
-          <p>Job Description: {detailsFindData.job_description}</p>
-          <p>Job Responsibility: {detailsFindData.job_responsibility}</p>
-          <p>Educational Requirements :</p>
-          {detailsFindData.educational_requirements}
-          <p>Experiences</p>
-          {detailsFindData.experiences}
-        </div>
-        <div className="DetailsJobsContact">
-          <h1>Job Details</h1>
-          <h2>{detailsFindData.salary}</h2>
-          <h2>{detailsFindData.job_title}</h2>
-          <h1>Contact Information</h1>
-          <p>Phone: {detailsFindData.phone}</p>
-          <p>Email: {detailsFindData.email}</p>
-          <p>Address: {detailsFindData.location}</p>
+      <div>
+        <div className="DetailsJobsDescriptionContact">
+          <div className="DetailsJobsDescription">
+            <div className="DetailsJobsDescriptionAllRight">
+              <span>Job Description: </span>
+              <p>{detailsFindData.job_description}</p>
+            </div>
+            <div className="DetailsJobsDescriptionAllRight">
+              <span>Job Responsibility: </span>
+              <p>{detailsFindData.job_responsibility}</p>
+            </div>
+            <div className="DetailsJobsDescriptionAllRight">
+              <span>Educational Requirements:</span>
+              <p>{detailsFindData.educational_requirements}</p>
+            </div>
+            <div className="DetailsJobsDescriptionAllRight">
+              <span>Experiences:</span>
+              <p>{detailsFindData.experiences}</p>
+            </div>
+          </div>
+          <div>
+            <div className="DetailsJobsContact">
+              <h1>Job Details</h1>
+              <div className="DetailsJobsFlex">
+                <span>Salary: </span>
+                <p>{detailsFindData.salary}</p>
+              </div>
+              <div className="DetailsJobsFlex">
+                <span>JobTitle: </span>
+                <p>{detailsFindData.job_title}</p>
+              </div>
+
+              <h1>Contact Information</h1>
+
+              <div className="DetailsJobsFlex">
+                <span>Phone: </span>
+                <p>{detailsFindData.phone}</p>
+              </div>
+
+              <div className="DetailsJobsFlex">
+                <span>Email: </span>
+                <p>{detailsFindData.email}</p>
+              </div>
+
+              <div className="DetailsJobsFlex">
+                <span>Address: </span>
+                <p>{detailsFindData.location}</p>
+              </div>
+            </div>
+            <div>
+              <button className="applyNowBtn">Apply Now</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
