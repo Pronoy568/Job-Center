@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./DetailsJobs.css";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { addToDb } from "../../utilities/fakedb";
 
 const DetailsJobs = () => {
   const [detailsFindData, setDetailsFindData] = useState({});
@@ -18,6 +21,11 @@ const DetailsJobs = () => {
         }
       });
   }, []);
+
+  const handleAddCart = () => {
+    toast("Congratulations Apply Successfully !!!");
+    addToDb(detailsFindData.id);
+  };
 
   return (
     <div className="DetailsJobsContainer">
@@ -74,7 +82,9 @@ const DetailsJobs = () => {
               </div>
             </div>
             <div>
-              <button className="applyNowBtn">Apply Now</button>
+              <button onClick={handleAddCart} className="applyNowBtn">
+                Apply Now
+              </button>
             </div>
           </div>
         </div>

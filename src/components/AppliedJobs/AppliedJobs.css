@@ -1,0 +1,13 @@
+.AppliedJobsContainer {
+  margin-bottom: 30px;
+}
+.AppliedJobsHeading {
+  background: url("../../assets/AllImages/Vector-1.png") right bottom no-repeat,
+    url("../../assets/AllImages/Vector.png") left top no-repeat, #f9f9ff;
+  text-align: center;
+  padding: 100px;
+}
+.AppliedJobsHeading .AppliedJobsTitle {
+  font-size: 32px;
+  color: #1a1919;
+}
