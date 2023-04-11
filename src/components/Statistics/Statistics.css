@@ -1,0 +1,28 @@
+.ChartStatisticsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
+.ChartCustomContainer {
+  display: none;
+}
+.TitleChart {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 36px;
+  font-style: italic;
+  color: #000055;
+}
+@media (max-width: 576px) {
+  .ChartStatisticsContainer {
+    margin-top: 0px;
+    margin-left: -250px;
+  }
+  .AreaChartContainer {
+    display: none;
+  }
+  .ChartCustomContainer {
+    display: block;
+  }
+}

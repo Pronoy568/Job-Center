@@ -11,3 +11,9 @@
   font-size: 32px;
   color: #1a1919;
 }
+@media (max-width: 576px) {
+  .AppliedJobsHeading {
+    background: #f9f9ff;
+    padding: 10px;
+  }
+}

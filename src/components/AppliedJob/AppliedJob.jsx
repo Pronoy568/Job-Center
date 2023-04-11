@@ -16,32 +16,32 @@ const AppliedJob = ({ detailData }) => {
     fullTime_or_partTime,
   } = detailData;
   return (
-    <div>
-      <div>
+    <div className="AppliedJobContainer">
+      <div className="AppliedJobImg">
         <img src={company_logo} alt={job_title} />
       </div>
-      <div>
+      <div className="AppliedJobInformation">
         <h1>{job_title}</h1>
-        <p>{company_name}</p>
-        <div>
+        <h2>{company_name}</h2>
+        <div className="typesOfJobBtn">
           <button>{remote_or_onsite}</button>
-          <button>{fullTime_or_partTime}</button>
+          <button className="btn">{fullTime_or_partTime}</button>
         </div>
-        <div>
+        <div className="placeSalaryJob">
           <p>
             {" "}
-            <FontAwesomeIcon icon={faLocationDot} />
+            <FontAwesomeIcon className="ICON" icon={faLocationDot} />
             {location}
           </p>
           <p>
             {" "}
-            <FontAwesomeIcon icon={faSackDollar} />
+            <FontAwesomeIcon className="ICONS" icon={faSackDollar} />
             Salary : {salary}
           </p>
         </div>
       </div>
       <Link to={`/job/${id}`}>
-        <button>View Details</button>
+        <button className="btnViewDetails">View Details</button>
       </Link>
     </div>
   );

@@ -1,0 +1,57 @@
+.AppliedJobContainer {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  width: 90%;
+  margin: 30px auto;
+  align-items: center;
+  border: 2px solid rgba(138, 138, 138, 0.128);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(235, 235, 235, 0.128);
+}
+.AppliedJobImg img {
+  width: 90%;
+  height: 200px;
+  border-radius: 10px;
+}
+.AppliedJobInformation h1 {
+  font-size: 28px;
+  color: #474747;
+}
+.AppliedJobInformation h2 {
+  font-size: 24px;
+  color: #757575;
+  margin: 2px 0 6px 0;
+}
+.typesOfJobBtn button {
+  margin: 10px 0;
+  padding: 10px 15px;
+  background: linear-gradient(90deg, #9873ff 0%, #7e90fe 100%);
+  border: 0;
+  font-weight: 700;
+  font-size: 17px;
+  color: #e7e7e7;
+  border-radius: 5px;
+}
+.typesOfJobBtn .btn {
+  margin: 0 15px;
+}
+.placeSalaryJob {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 10px 0;
+  color: #757575;
+}
+.placeSalaryJob .ICONS {
+  margin: 0 10px;
+}
+.placeSalaryJob .ICON {
+  margin: 0 10px 0 0;
+}
+
+@media (max-width: 576px) {
+  .AppliedJobContainer {
+    grid-template-columns: 1fr;
+  }
+}
