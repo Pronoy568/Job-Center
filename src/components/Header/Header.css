@@ -66,3 +66,30 @@
     padding: 10px 20px;
   }
 }
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .header-container {
+    flex-direction: column-reverse;
+    padding: 10px;
+    text-align: center;
+  }
+  .header-text {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  .header-image {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .header-image img {
+    width: 70%;
+  }
+  .header-text h1 {
+    font-size: 40px;
+    line-height: 30px;
+  }
+  .btnGetStarted {
+    padding: 10px 20px;
+  }
+}

@@ -5,11 +5,13 @@
   padding: 25px 0;
   background-color: #f9f9ff;
 }
-.Navbar-Title {
+.Navbar-Title a {
+  text-decoration: none;
   font-weight: 800;
   font-size: 32px;
   color: #1a1919;
 }
+
 .Navbar-Link a {
   text-decoration: none;
   color: black;
@@ -30,6 +32,13 @@
 }
 .applyBtn:hover {
   background: linear-gradient(90deg, #9873ff 0%, #7e90fe 100%);
+}
+
+.active {
+  background-color: rgba(225, 225, 225, 0.799);
+  padding: 8px;
+  border: 2px solid rgb(189, 189, 189);
+  border-radius: 10px;
 }
 
 @media (max-width: 576px) {

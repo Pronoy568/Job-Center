@@ -37,3 +37,9 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (min-width: 600px) and (max-width: 992px) {
+  .FeaturedJobs {
+    grid-template-columns: 1fr;
+  }
+}

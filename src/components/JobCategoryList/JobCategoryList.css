@@ -47,3 +47,9 @@
     padding: 15px 30px;
   }
 }
+
+@media (min-width: 600px) and (max-width: 992px) {
+  .jobCategoryList {
+    flex-direction: column;
+  }
+}

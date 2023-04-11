@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/AllImages/man.png";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -12,7 +13,9 @@ const Header = () => {
           is your future. Find it here. Manage each step of the employment
           application process.
         </p>
-        <button className="btnGetStarted">Get Started</button>
+        <Link to="/FeaturedJobs">
+          <button className="btnGetStarted">Get Started</button>
+        </Link>
       </div>
       <div className="header-image">
         <img src={logo} alt="image" />

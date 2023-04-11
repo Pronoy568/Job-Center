@@ -4,6 +4,14 @@ import "./DetailsJobs.css";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { addToDb } from "../../utilities/fakedb";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLocationDot,
+  faSackDollar,
+  faVoicemail,
+  faPhone,
+  faQuestionCircle,
+} from "@fortawesome/free-solid-svg-icons";
 
 const DetailsJobs = () => {
   const [detailsFindData, setDetailsFindData] = useState({});
@@ -56,28 +64,57 @@ const DetailsJobs = () => {
             <div className="DetailsJobsContact">
               <h1>Job Details</h1>
               <div className="DetailsJobsFlex">
-                <span>Salary: </span>
+                <span>
+                  {" "}
+                  <FontAwesomeIcon
+                    className="iconDetails"
+                    icon={faSackDollar}
+                  />
+                  Salary:{" "}
+                </span>
                 <p>{detailsFindData.salary}</p>
               </div>
               <div className="DetailsJobsFlex">
-                <span>JobTitle: </span>
+                <span>
+                  {" "}
+                  <FontAwesomeIcon
+                    className="iconDetails"
+                    icon={faQuestionCircle}
+                  />
+                  JobTitle:{" "}
+                </span>
                 <p>{detailsFindData.job_title}</p>
               </div>
 
               <h1>Contact Information</h1>
 
               <div className="DetailsJobsFlex">
-                <span>Phone: </span>
+                <span>
+                  {" "}
+                  <FontAwesomeIcon className="iconDetails" icon={faPhone} />
+                  Phone:{" "}
+                </span>
                 <p>{detailsFindData.phone}</p>
               </div>
 
               <div className="DetailsJobsFlex">
-                <span>Email: </span>
+                <span>
+                  {" "}
+                  <FontAwesomeIcon className="iconDetails" icon={faVoicemail} />
+                  Email:{" "}
+                </span>
                 <p>{detailsFindData.email}</p>
               </div>
 
               <div className="DetailsJobsFlex">
-                <span>Address: </span>
+                <span>
+                  {" "}
+                  <FontAwesomeIcon
+                    className="iconDetails"
+                    icon={faLocationDot}
+                  />
+                  Address:{" "}
+                </span>
                 <p>{detailsFindData.location}</p>
               </div>
             </div>
