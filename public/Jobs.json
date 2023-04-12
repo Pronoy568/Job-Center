@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "company_logo": "../src/assets/Logo/logo11.jpg",
+    "company_logo": "https://i.ibb.co/jg4xQJx/logo11.jpg",
     "job_title": "Software Engineer",
     "company_name": "Example Inc.",
     "remote_or_onsite": "Remote",
@@ -17,7 +17,7 @@
   },
   {
     "id": 2,
-    "company_logo": "../src/assets/Logo/logo12.png",
+    "company_logo": "https://i.ibb.co/0hmnJqg/logo12.png",
     "job_title": "Data Analyst",
     "company_name": "Acme Corp.",
     "remote_or_onsite": "Onsite",
@@ -33,7 +33,7 @@
   },
   {
     "id": 3,
-    "company_logo": "../src/assets/Logo/logo13.jpg",
+    "company_logo": "https://i.ibb.co/Jv0K9R4/logo13.jpg",
     "job_title": "Marketing Manager",
     "company_name": "XYZ Corp.",
     "remote_or_onsite": "Onsite",
@@ -49,7 +49,7 @@
   },
   {
     "id": 4,
-    "company_logo": "../src/assets/Logo/logo14.png",
+    "company_logo": "https://i.ibb.co/Y3HLZ0r/logo14.png",
     "job_title": "Application Development",
     "company_name": "ABC Software",
     "remote_or_onsite": "Remote",
@@ -65,7 +65,7 @@
   },
   {
     "id": 5,
-    "company_logo": "../src/assets/Logo/logo15.jpg",
+    "company_logo": "https://i.ibb.co/WP5WrdK/logo15.jpg",
     "job_title": "Network Development",
     "company_name": "XYZ Corporation",
     "remote_or_onsite": "Onsite",
@@ -81,7 +81,7 @@
   },
   {
     "id": 6,
-    "company_logo": "../src/assets/Logo/logo16.jpg",
+    "company_logo": "https://i.ibb.co/QkjCFyd/logo16.jpg",
     "job_title": "Graphic Designer",
     "company_name": "123 Design Studio",
     "remote_or_onsite": "Remote",

@@ -1,28 +1,28 @@
 [
   {
     "id": 1001,
-    "logo": "../src/assets/Logo/logo1.png",
+    "logo": "https://i.ibb.co/QFpKp0D/logo1.png",
     "title": "Software Developer",
     "company": "Example Inc.",
     "JobAvailable": "100 Jobs Available"
   },
   {
     "id": 1002,
-    "logo": "../src/assets/Logo/logo2.png",
+    "logo": "https://i.ibb.co/r73yr7j/logo2.png",
     "title": "Network Engineer",
     "company": "ABC Corp.",
     "JobAvailable": "140 Jobs Available"
   },
   {
     "id": 1003,
-    "logo": "../src/assets/Logo/logo3.jpg",
+    "logo": "https://i.ibb.co/37L7cJF/logo3.jpg",
     "title": "Data Analyst",
     "company": "XYZ LLC",
     "JobAvailable": "200 Jobs Available"
   },
   {
     "id": 1004,
-    "logo": "../src/assets/Logo/logo4.png",
+    "logo": "https://i.ibb.co/8zmJ8BC/logo4.webp",
     "title": "UX Designer",
     "company": "PQR Co.",
     "JobAvailable": "190 Jobs Available"
