@@ -5,15 +5,13 @@ import AppliedJob from "../AppliedJob/AppliedJob";
 
 const AppliedJobs = () => {
   const [detailsData, setDetailsData] = useState([]);
-  let [remoteFilter, setRemoteFilter] = useState(false);
-  let [onsiteFilter, setOnsiteFilter] = useState(false);
+  const [remoteFilter, setRemoteFilter] = useState(false);
+  const [onsiteFilter, setOnsiteFilter] = useState(false);
 
   useEffect(() => {
     fetch(`../Jobs.json`)
       .then((res) => res.json())
       .then((data) => {
-        console.log(remoteFilter);
-
         const applyJobData = getShoppingCart();
         let newArr = [];
         let remoteArr = [];
@@ -22,13 +20,13 @@ const AppliedJobs = () => {
         for (const id in applyJobData) {
           let FindDetails = data.find((f) => f.id == id);
 
-          if (FindDetails.remote_or_onsite === "Remote") {
-            remoteArr.push(FindDetails);
-          } else {
-            onsiteArr.push(FindDetails);
-          }
-
           if (FindDetails) {
+            if (FindDetails.remote_or_onsite === "Remote") {
+              remoteArr.push(FindDetails);
+            } else {
+              onsiteArr.push(FindDetails);
+            }
+
             FindDetails.quantity = applyJobData[id];
             newArr.push(FindDetails);
           } else {
@@ -36,17 +34,25 @@ const AppliedJobs = () => {
           }
         }
 
-        if (remoteFilter === true) {
+        if (remoteFilter) {
           setDetailsData(remoteArr);
-        } else if (onsiteFilter === true) {
+        } else if (onsiteFilter) {
           setDetailsData(onsiteArr);
-        } else if (remoteFilter === false || remoteFilter === false) {
-          setDetailsData(newArr);
         } else {
-          console.log("Unknown filter");
+          setDetailsData(newArr);
         }
       });
-  }, []);
+  }, [remoteFilter, onsiteFilter]);
+
+  const handleRemoteFilter = () => {
+    setRemoteFilter(true);
+    setOnsiteFilter(false);
+  };
+
+  const handleOnsiteFilter = () => {
+    setRemoteFilter(false);
+    setOnsiteFilter(true);
+  };
 
   return (
     <div className="AppliedJobsContainer">
@@ -55,18 +61,14 @@ const AppliedJobs = () => {
       </div>
       {detailsData.length > 0 && (
         <div className="FilterJobBtn">
-          <button onClick={() => setRemoteFilter(true)}>
-            Filter by remote Job
-          </button>
-          <button onClick={() => setOnsiteFilter(true)}>
-            Filter by Onsite Job
-          </button>
+          <button onClick={handleRemoteFilter}>Filter by Remote Job</button>
+          <button onClick={handleOnsiteFilter}>Filter by Onsite Job</button>
         </div>
       )}
       <div>
         {detailsData.length === 0 ? (
           <div className="NOAppliedJobs">
-            <h1>No Applied Here. Please Apply your perspective Jobs.</h1>
+            <h1>No Applied Here. Please Apply to your prospective Jobs.</h1>
           </div>
         ) : (
           detailsData.map((detailData) => (
